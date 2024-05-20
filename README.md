@@ -62,4 +62,18 @@ price-classification-api/
 
 ### Development
 
+## Training and Evaluating Models 
 
+- `ml.py`: Contains the code for training, evaluating, and saving the best machine learning model.
+  
+  To run:
+  ```sh
+  python ml.py
+
+## Testing
+
+- 'test_api.py': Contains integration tests for the API.
+  
+  To run:
+  ```sh
+  python test_api.py
