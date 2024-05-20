@@ -83,7 +83,11 @@ This repository contains a Flask-based API for predicting the price range of mob
   - Precision: 0.97
   - Recall: 0.96
   - F1-Score: 0.97
-   
+
+##### Confusion matrix of the best model:
+
+![Confusion Matrix](confusion_matrix.png)
+
 ### Testing
 
 - `test_api.py`: Contains integration tests for the API.
