@@ -48,6 +48,7 @@ This repository contains a Flask-based API for predicting the price range of mob
 3. **Response**:
 
    The API will respond with a JSON array containing predicted price ranges.
+
    [3, 3, 2, 3, 1, 3, 3, 1, 3] 
 
 
