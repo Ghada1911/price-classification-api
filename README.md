@@ -31,6 +31,11 @@ This repository contains a Flask-based API for predicting the price range of mob
 2. **Make predictions**:
 
    Send a POST request to http://localhost:5000/api/predict with a JSON payload containing device specifications.
+
+   Using
+   ```sh
+  python test_api.py
+  
    test data used:
    ```json
    
@@ -45,10 +50,10 @@ This repository contains a Flask-based API for predicting the price range of mob
     {"battery_power": 1111, "blue": 1, "clock_speed": 2.9, "dual_sim": 1, "fc": 9, "four_g": 1, "int_memory": 25, "m_dep": 0.6, "mobile_wt": 101, "n_cores": 5, "pc": 19, "px_height": 556, "px_width": 876, "ram": 3485, "sc_h": 11, "sc_w": 9, "talk_time": 10, "three_g": 1, "touch_screen": 1, "wifi": 0}
 
 
-3. **Response**:
-
+4. **Response**:
+   
    The API will respond with a JSON array containing predicted price ranges.
-
+   ```json
    [3, 3, 2, 3, 1, 3, 3, 1, 3] 
 
 
