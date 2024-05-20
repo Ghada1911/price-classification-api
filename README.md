@@ -7,4 +7,17 @@
 This repository contains a Flask-based API for predicting the price range of mobile devices using machine learning.
 
 ## Project Structure
-
+price-classification-api/
+│
+├── data/
+│ ├── train_dataset.csv
+│ └── test_dataset.csv
+│
+├── models/
+│ └── best_price_classification_model.pkl
+│
+├── main.py
+├── ml.py
+├── test_api.py
+├── requirements.txt
+└── README.md
