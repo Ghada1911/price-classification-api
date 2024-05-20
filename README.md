@@ -39,7 +39,7 @@ price-classification-api/
    ```sh
    pip install -r requirements.txt
 
-### Usage
+## Usage
 
 1. **Run the API**:
    ```sh
@@ -60,9 +60,9 @@ price-classification-api/
    The API will respond with a JSON array containing predicted price ranges.
 
 
-### Development
+## Development
 
-## Training and Evaluating Models 
+### Training and Evaluating Models 
 
 - `ml.py`: Contains the code for training, evaluating, and saving the best machine learning model.
   
@@ -70,7 +70,7 @@ price-classification-api/
   ```sh
   python ml.py
 
-## Testing
+### Testing
 
 - `test_api.py`: Contains integration tests for the API.
   
