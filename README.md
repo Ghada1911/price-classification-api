@@ -72,7 +72,7 @@ price-classification-api/
 
 ## Testing
 
-- 'test_api.py': Contains integration tests for the API.
+- `test_api.py`: Contains integration tests for the API.
   
   To run:
   ```sh
