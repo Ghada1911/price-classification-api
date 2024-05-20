@@ -46,6 +46,7 @@ price-classification-api/
    python main.py
 
 2. **Make predictions**:
+
    Send a POST request to http://localhost:5000/api/predict with a JSON payload containing device specifications.
    Example JSON data:
    ```json
@@ -55,4 +56,5 @@ price-classification-api/
 ]
 
 3. **Response**:
+
    The API will respond with a JSON array containing predicted price ranges.
