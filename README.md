@@ -21,3 +21,19 @@ price-classification-api/
 ├── test_api.py
 ├── requirements.txt
 └── README.md
+
+
+## Setup
+
+### Prerequisites
+
+- Python 3.8+
+- pip (Python package installer)
+
+### Installation
+
+1. **Clone the repository**:
+   ```sh
+   git clone https://github.com/Ghada1911/price-classification-api.git
+   cd price-classification-api
+
