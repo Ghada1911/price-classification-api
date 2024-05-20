@@ -52,7 +52,6 @@ This repository contains a Flask-based API for predicting the price range of mob
    ```json
    [3, 3, 2, 3, 1, 3, 3, 1, 3] 
 
-
 ## Development
 
 ### Training and Evaluating Models 
