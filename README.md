@@ -63,21 +63,24 @@ This repository contains a Flask-based API for predicting the price range of mob
   python ml.py
 
 #### Model Performance
-   RandomForest Accuracy: 0.89
-   GradientBoosting Accuracy: 0.9
-   SVM Accuracy: 0.965
-   Best Model: SVC(random_state=42)
-   Best Model Classification Report:
-                  precision    recall  f1-score   support
-   
-              0       0.99      0.98      0.99       105 
-              1       0.95      0.99      0.97        91 
-              2       0.94      0.95      0.94        92 
-              3       0.98      0.95      0.96       112 
-   
-       accuracy                           0.96       400 
-      macro avg       0.96      0.97      0.96       400 
-   weighted avg       0.97      0.96      0.97       400
+### Best Model: SVC (SVC(random_state=42))
+
+| Class | Precision | Recall | F1-Score | Support |
+|-------|-----------|--------|----------|---------|
+| 0     | 0.99      | 0.98   | 0.99     | 105     |
+| 1     | 0.95      | 0.99   | 0.97     | 91      |
+| 2     | 0.94      | 0.95   | 0.94     | 92      |
+| 3     | 0.98      | 0.95   | 0.96     | 112     |
+
+- **Accuracy:** 0.965
+- **Macro Avg:**
+  - Precision: 0.96
+  - Recall: 0.97
+  - F1-Score: 0.96
+- **Weighted Avg:**
+  - Precision: 0.97
+  - Recall: 0.96
+  - F1-Score: 0.97
    
 ### Testing
 
