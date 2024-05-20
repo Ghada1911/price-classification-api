@@ -7,6 +7,7 @@ This repository contains a Flask-based API for predicting the price range of mob
 ## Project Structure
 
 price-classification-api/
+
 │
 ├── data/
 │ ├── train_dataset.csv
