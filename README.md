@@ -63,7 +63,8 @@ This repository contains a Flask-based API for predicting the price range of mob
   python ml.py
 
 #### Model Performance
-### Best Model: SVC (SVC(random_state=42))
+
+##### Best Model: SVC (SVC(random_state=42))
 
 | Class | Precision | Recall | F1-Score | Support |
 |-------|-----------|--------|----------|---------|
@@ -71,6 +72,7 @@ This repository contains a Flask-based API for predicting the price range of mob
 | 1     | 0.95      | 0.99   | 0.97     | 91      |
 | 2     | 0.94      | 0.95   | 0.94     | 92      |
 | 3     | 0.98      | 0.95   | 0.96     | 112     |
+
 
 - **Accuracy:** 0.965
 - **Macro Avg:**
